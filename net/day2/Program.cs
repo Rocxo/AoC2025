@@ -34,7 +34,6 @@ List<string> FindRepeatedIDs(string idRange, bool part1 = false)
     return result;
 }
 
-List<string> repeatedIDs = [];
 long part1Result = 0;
 long part2Result = 0;
 foreach (string range in idRanges)
@@ -53,4 +52,4 @@ foreach (string range in idRanges)
 }
 
 Console.WriteLine($"Day2 Part1 result: {part1Result}");
-Console.WriteLine($"Day2 Part1 result: {part2Result}");
+Console.WriteLine($"Day2 Part2 result: {part2Result}");
