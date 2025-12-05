@@ -71,3 +71,7 @@ target
 
 # MacOS
 .DS_Store
+
+# Rider
+net/.idea
+net/net.sln.DotSettings.user
